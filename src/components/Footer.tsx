@@ -1,4 +1,5 @@
 import Link from "next/link";
+import NewsletterForm from "./NewsletterForm";
 
 export default function Footer() {
   return (
@@ -52,6 +53,18 @@ export default function Footer() {
                 Terms
               </Link>
             </div>
+          </div>
+        </div>
+
+        <div className="mt-6 pt-4 border-t border-border">
+          <span className="font-heading font-semibold text-text-secondary uppercase tracking-wider text-[10px]">
+            Handoff Notes
+          </span>
+          <p className="text-text-secondary text-xs mt-1 mb-3 max-w-xs">
+            One short email a month. Better handoffs, calmer shifts.
+          </p>
+          <div className="max-w-xs">
+            <NewsletterForm />
           </div>
         </div>
 
