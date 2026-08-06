@@ -30,6 +30,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <Script
+          id="roger-group-consent"
+          src="https://rogerson-signups.netlify.app/consent-widget.js"
+          strategy="beforeInteractive"
+          data-brand="ShiftSBAR"
+          data-domain="shiftsbar.com"
+          data-analytics="true"
+          data-marketing="false"
+        />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
