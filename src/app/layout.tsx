@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Script from "next/script";
+import AcquisitionNotice from "@/components/AcquisitionNotice";
 import "./globals.css";
 
 const gaId = process.env.NEXT_PUBLIC_GA_ID;
@@ -56,6 +57,7 @@ export default function RootLayout({
       </head>
       <body className="bg-bg text-text font-body antialiased">
         {children}
+        <AcquisitionNotice />
         {gaId && (
           <>
             <Script
