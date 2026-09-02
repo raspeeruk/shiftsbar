@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Privacy Policy",
   description: "ShiftSBAR privacy policy — how we handle your data.",
+  alternates: { canonical: "/privacy" },
 };
 
 export default function PrivacyPage() {

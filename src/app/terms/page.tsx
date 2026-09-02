@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Terms of Service",
   description: "ShiftSBAR terms of service.",
+  alternates: { canonical: "/terms" },
 };
 
 export default function TermsPage() {

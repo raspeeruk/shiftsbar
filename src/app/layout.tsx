@@ -13,6 +13,7 @@ export const metadata: Metadata = {
   },
   description:
     "Speak your shift brain dump. AI structures it into a clean SBAR handoff report with flagged priorities. Free for nurses.",
+  alternates: { canonical: "/" },
   openGraph: {
     type: "website",
     siteName: "ShiftSBAR",

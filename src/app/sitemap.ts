@@ -34,19 +34,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     ...staticPages.map((path) => ({
       url: `${BASE}${path}`,
-      lastModified: new Date(),
       changeFrequency: "weekly" as const,
       priority: path === "" ? 1.0 : 0.8,
     })),
     ...guidePages.map((path) => ({
       url: `${BASE}${path}`,
-      lastModified: new Date(),
       changeFrequency: "monthly" as const,
       priority: 0.7,
     })),
     ...examplePages.map((path) => ({
       url: `${BASE}${path}`,
-      lastModified: new Date(),
       changeFrequency: "monthly" as const,
       priority: 0.6,
     })),

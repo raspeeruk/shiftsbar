@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   title: "Pricing",
   description:
     "ShiftSBAR pricing — 3 free SBAR reports per day, or unlimited for $9.99/month.",
+  alternates: { canonical: "/pricing" },
 };
 
 const plans = [
